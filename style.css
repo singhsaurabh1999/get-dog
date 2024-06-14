@@ -1,0 +1,36 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    padding: 5px;
+    margin-top: 20px;
+    background-color: bisque;
+}
+
+.page {
+    text-align: center;
+}
+
+#dog-target {
+    margin-top: 10px;
+    /* height: fit-content;
+    width: fit-content; */
+}
+
+.get-dog {
+    background-color: darkkhaki;
+    height: 100px;
+    width: 150px;
+    font-size: large;
+    cursor: pointer;
+
+}
+
+.get-dog:hover {
+    background-color: chocolate;
+}
+
+.get-dog:active {
+    background-color: darkgray;
+}
